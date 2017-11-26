@@ -735,6 +735,15 @@ footer ul li:last-child {
     #secao2 .inicio2 .texto {
         width: 300px;
         margin-bottom: 200px;
+        margin-left: 0;
+    }
+    
+    #secao2 .inicio2 .texto h2 {
+        text-align: center;
+    }
+    
+    #secao2 .inicio2 .texto p {
+        text-align: center;
     }
     
     #secao2 .inicio2 .img {
@@ -752,20 +761,76 @@ footer ul li:last-child {
         height: 850px;
     }
     
+    #secao4 .cartao .angela h1 {
+        background-size: 40%;
+        margin-left: 470px;
+    }
+    
     #secao4 .cartao .text {
-        width: 795px;
-        text-align: right;
+        width: 278px;
+        height: 300px;
+        text-align: left;
+        padding: 20px;
+        margin-top: -205px;
+        margin-left: -5px;
+    }
+    
+    #secao4 .cartao .text h1 {
+        background-size: 50%;
+    }
+    
+    #secao4 .icones {
+        width: 320px;
+        height: 480px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #secao4 .icones h1 {
+        background-size: 70%;
+        padding: 0; 
+        margin: 0;
+        margin-top: 40px;
+        margin-right: 0;
+    }
+    
+    #secao4 .icones h4 {
+        font-size: 12px;
+    }
+    
+    #secao4 .icones p {
+        font-size: 12px;
+        width: 200px;
     }
     
     #secao5 {
-        height: 500px;
+        width: 300px;
+        height: 600px;
+        margin-bottom: 50px;
+        margin-top: -100px;
     }
     
     #secao5 .select {
-        margin-top: 60px;
-        margin-left: 250px;
-        height: 500px;
-        margin-bottom: 200px;
+        display: block;
+    }
+    
+    #secao5 .select h2 {
+        text-align: center;
+    }
+    
+    #secao5 .select p {
+        width: 300px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    #secao5 .select select {
+        width: 300px;
+    }
+    
+    #secao5 .select button {
+        width: 300px;
     }
     
     #secao6 .cards {
@@ -786,39 +851,7 @@ footer ul li:last-child {
     
     
 
-    /* header nav {
-        display: none;
-    }
     
-    header h1 {
-        margin-left: 20px;
-    }
-
-    section#topo {
-        padding: 20px;
-    }
-    
-    section#conheca .container {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    section#conheca .container .texto {
-        padding: 10px;
-    }
-    
-    section#conheca .container .texto a {
-        width: 100%;
-    }
-    
-    section#convite form {
-        display: block;
-        text-align: center;
-        width: 80%;
-    }
-
-*/
-
 
 
 
