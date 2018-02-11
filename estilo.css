@@ -1,6 +1,5 @@
 body {
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .bcgum {
@@ -10,6 +9,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-image: url(hero-image.png);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 div {
@@ -429,6 +429,7 @@ header .lista li span {
     justify-content: space-between;
     background-color: #fd6e74;
     margin: 0;
+    width: 794px;
 }
 
 #secao4 .cartao .text h3 {
@@ -688,47 +689,67 @@ footer ul li:last-child {
 
 
 
-
-@media (max-width: 600px) {
+@media only screen and (max-width: 480px) {
+    
+    html {
+        width: 412px;
+        margin: 0; padding: 0;
+    }
+    
     header {
         display: flex;
         flex-direction: column;
         height: 300px;
     }
     
+    .bcgum {
+        width: 100%;
+        margin-left: 20px;
+    }
+
     .bcgum .Logo {
         margin-right: 120px;
+        
     }
     
     .bcgum .lista {
         display: flex;
         flex-direction: column;
+        
     }
     
     .bcgum .lista li:last-child {
         margin-left: 23px;
+        
     }
     
     #secao1 {
         height: 550px;
+        
     }
     
     #secao1 .inicio {
-        margin-top: -90px;
-        margin-left: 90px;
+        margin-left: 100px;
+        margin-bottom: 200px;
         padding-right: 100px;
         height: 550px;
+        
     }
     
     .quadros1, .quadros2 {
         display: none;
+        
+    }
+    
+    #secao2 {
+        margin-top: 30px;
+        
     }
     
     #secao2 .inicio2 {
         display: flex;
         flex-direction: column;
-        margin-top: 200px;
-        margin-bottom: 50px;
+        margin-top: 400px;
         
     }
     
@@ -740,6 +761,7 @@ footer ul li:last-child {
     
     #secao2 .inicio2 .texto h2 {
         text-align: center;
+        
     }
     
     #secao2 .inicio2 .texto p {
@@ -747,12 +769,18 @@ footer ul li:last-child {
     }
     
     #secao2 .inicio2 .img {
-        margin-left: 200px;
+        text-align: center;
         padding-top: 100px;
+        
+    }
+    
+    #secao2 .inicio2 .img h1 {
+        margin-left: 200px;
     }
     
     #secao3 h1 {
         display: none;
+        
     }
     
     #secao4 {
@@ -762,17 +790,19 @@ footer ul li:last-child {
     }
     
     #secao4 .cartao .angela h1 {
-        background-size: 40%;
-        margin-left: 470px;
+        background-size: 100%;
+        width: 412px;
+        margin-bottom: 0;
+        margin-left: 20px;
     }
     
     #secao4 .cartao .text {
-        width: 278px;
+        width: 90%;
         height: 300px;
         text-align: left;
         padding: 20px;
-        margin-top: -205px;
-        margin-left: -5px;
+        margin-top: -80px;
+        margin-left: 20px;
     }
     
     #secao4 .cartao .text h1 {
@@ -841,6 +871,11 @@ footer ul li:last-child {
     
     #secao6 .cards .listas {
         margin-bottom: 30px;
+        width: 200px;
+    }
+    
+    #secao6 .cards .listas li {
+        text-align: center;
     }
     
     footer {
@@ -848,10 +883,15 @@ footer ul li:last-child {
     }
     
     }
+
+
     
     
 
     
+
+
+
 
 
 
